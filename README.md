@@ -30,7 +30,7 @@ $$V(x,t)= V_B \left[-\frac{1}{4}\left(\frac{z}{z_0}\right)^2+\frac{1}{64}\left(\
 
 $$\psi(x,0)=\frac{\phi_1(x)+\phi_2(x)}{\sqrt{2}}$$
 
-$$H\phi_1(x)=E_1\phi_1(x) \textrm{ \& } H\phi_2(x)=E_2\phi_2(x)$$ 
+$$H\phi_1(x)=E_1\phi_1(x) \textrm{ and } H\phi_2(x)=E_2\phi_2(x)$$ 
 
 $$E_1,E_2 \in \mathbb{R}$$
 
