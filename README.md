@@ -5,7 +5,7 @@ $$\partial_{tt} u(x,t) = c^2 \partial_{xx} u(x,t)$$
 
 $$u(x,0)= \exp{\left(\frac{x-μ_1}{σ}\right)^2} + \exp{\left(\frac{x-μ_2}{σ}\right)^2}$$
 
-$$u'(x,0)=\frac{d}{dt}u(x,0)$$
+$$u'(x,0)=\frac{d}{dx}u(x,0)$$
 
 $$x\in[0,\pi] \quad t\in[0,10]$$
 
