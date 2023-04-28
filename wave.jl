@@ -42,6 +42,7 @@ gif(anim,"figures/wave.gif",fps=5)
 # Figure
 f1 = Plots.heatmap(x,t,solution[1:length(x),:],c=:summer,xlabel=L"x",ylabel=L"t")
 title!("1D Wave equation")
+savefig("figures/contour_wave.png")
 savefig("figures/contour_wave.svg")
 
 # Write data
