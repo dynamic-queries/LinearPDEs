@@ -11,7 +11,7 @@ $$\sigma=0.5 \quad c=1.5$$
 ### Solution
 
 #### Animation
-[](https://github.com/dynamic-queries/LinearPDEs/figures/wave.gif)
+[![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.svg)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.svg)
 
 #### Static heatmap
-[](https://github.com/dynamic-queries/LinearPDEs/figures/contour_wave.svg)
+[![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)
