@@ -76,6 +76,7 @@ end
 gif(anim, "figures/SE_implicit.gif", fps=5)
 
 # Figure
+gr()
 f1 = Plots.heatmap(z,t,abs.(solution),c=:summer,xlabel=L"x",ylabel=L"t")
 title!("Schrodinger equation with Double well potential")
 savefig("figures/contour_SE.png")
