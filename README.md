@@ -14,9 +14,9 @@ $$\mu_1=\frac{\pi}{3} \quad \mu_1=\frac{2\pi}{3}$$
 $$\sigma=0.5 \quad c=1.5$$
 
 ### Solution
-Static heatmap             |  Animation
+ Animation          |  Static heatmap  
 :-------------------------:|:-------------------------:
-[![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)  |  [![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)
+  [![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif) | [![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)
 
 ---
 
