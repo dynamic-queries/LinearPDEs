@@ -40,7 +40,7 @@ $$E_z=0 \quad V_B = 1 \quad \omega=200\pi\times10^{12}$$
 
 ### Solutions
 
-This system is known to be stiff. To demonstrate this we juxtapose solutions from a 5th order adaptive-explicit vs a second order implicit integrator.
+This system is known to be stiff. To demonstrate this we juxtapose solutions from a 5th order adaptive-explicit vs a 2nd order implicit integrator.
 
 Explicit method           |  Implicit method | Static contour map |
 :-------------------------:|:-------------------------:|:-------------------------|
