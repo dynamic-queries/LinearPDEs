@@ -14,9 +14,9 @@ $$\mu_1=\frac{\pi}{3} \quad \mu_1=\frac{2\pi}{3}$$
 $$\sigma=0.5 \quad c=1.5$$
 
 ### Solution
-Static heatmap             |  Animation
+ Explicit method          |  Static heatmap  
 :-------------------------:|:-------------------------:
-[![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)  |  [![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)
+  [![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/wave.gif) | [![name](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)](https://github.com/dynamic-queries/LinearPDEs/blob/main/figures/contour_wave.png)
 
 ---
 
@@ -30,7 +30,7 @@ $$V(x,t)= V_B \left[-\frac{1}{4}\left(\frac{z}{z_0}\right)^2+\frac{1}{64}\left(\
 
 $$\psi(x,0)=\frac{\phi_1(x)+\phi_2(x)}{\sqrt{2}}$$
 
-$$H\phi_1(x)=E_1\phi_1(x) \textrm{ \& } H\phi_2(x)=E_2\phi_2(x)$$ 
+$$H\phi_1(x)=E_1\phi_1(x) \textrm{ and } H\phi_2(x)=E_2\phi_2(x)$$ 
 
 $$E_1,E_2 \in \mathbb{R}$$
 
@@ -40,7 +40,7 @@ $$E_z=0 \quad V_B = 1 \quad \omega=200\pi\times10^{12}$$
 
 ### Solutions
 
-This system is known to be stiff. To demonstrate this we juxtapose solutions from a 5th order adaptive-explicit vs a second order implicit integrator.
+This system is known to be stiff. To demonstrate this we juxtapose solutions from a 5th order adaptive-explicit vs a 2nd order implicit integrator.
 
 Explicit method           |  Implicit method | Static contour map |
 :-------------------------:|:-------------------------:|:-------------------------|
