@@ -24,7 +24,7 @@ $$\sigma=0.5 \quad c=1.5$$
 With double well potential
 
 ### Problem setup
-$$i\bar{h}\:\partial_{t} \psi(x,t) = H\psi(x,t)=\left(-\frac{\bar{h}^2}{2m}\Delta_x +V(x,t)\right)\psi(x,t)$$
+$$i\bar{h} \partial_{t} \psi(x,t) = H\psi(x,t)=\left(-\frac{\bar{h}^2}{2m}\Delta_x +V(x,t)\right)\psi(x,t)$$
 
 $$V(x,t)= V_B \left[-\frac{1}{4}\left(\frac{z}{z_0}\right)^2+\frac{1}{64}\left(\frac{z}{z_0}\right)^4 \right] + eE_zsin(\omega t)$$
 
