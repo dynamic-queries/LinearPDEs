@@ -1,18 +1,19 @@
 include("includes.jl")
 
-Nx = 400
-Nt = 400
+Nx = 200
+Nt = 200
 x = Vector(LinRange(0.0, π, Nx))
 t = Vector(LinRange(0.0, 10.0, Nt))
 dx = x[2]-x[1]
-cx = 1.5
+cx = 2.0
 
 function initialize(x::AbstractVector)
     σ = 0.5
     μ1 = π/3
     μ2 = 2*π/3
     f(x) = exp(-((x-μ1)/σ)^2) + exp(-((x-μ2)/σ)^2)
-    g(x) = -(2*((x-μ1))/σ) * exp(-((x-μ1)/σ)^2) -(2*((x-μ2))/σ) * exp(-((x-μ2)/σ)^2)
+    # g(x) = -(2*((x-μ1))/σ) * exp(-((x-μ1)/σ)^2) -(2*((x-μ2))/σ) * exp(-((x-μ2)/σ)^2)
+    g(x) = 0.0
     vcat(f.(x), g.(x))
 end 
 
